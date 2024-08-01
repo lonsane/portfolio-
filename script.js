@@ -128,3 +128,6 @@ contact.classList.add("sec-dis")
 navBtn5.classList.add("active")
 
 })
+
+
+

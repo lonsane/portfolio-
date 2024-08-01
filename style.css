@@ -10,7 +10,7 @@
     
 }
 body.overflow{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 *{
     margin: 0;
@@ -70,6 +70,29 @@ header{
     color: var(--primary);
     transform: scale(1.1);
 }
+
+@media screen and (max-width:2475px){
+  #gol{
+  display: none;
+}
+@media (max-width: 500px){
+  #gol{
+    display: flex;
+  }
+}
+@media (max-width: 700px){
+  #gol{
+    display: flex;
+  }
+}
+@media (max-width: 800px){
+  #gol{
+    display: flex;
+  }
+}
+
+}
+
 
 
 .row{
